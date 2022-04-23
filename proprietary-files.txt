@@ -3,7 +3,6 @@
 etc/permissions/privapp-permissions-google.xml
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
 -system_ext/etc/permissions/privapp-permissions-google-se.xml
--product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;OVERRIDES=SoundPicker;PRESIGNED
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/com.google.android.dialer.support.xml
 product/etc/permissions/privapp-permissions-google-p.xml

@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MarkupGoogle \
-    SoundPickerPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     SettingsIntelligenceGooglePrebuilt \
