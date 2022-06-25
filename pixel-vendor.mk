@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml
 
+ifeq ($(WITH_GMS),true)
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     DeviceIntelligenceNetworkPrebuilt \
@@ -36,5 +37,8 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
     Flipendo \
-    TurboAdapter \
+    TurboAdapter
+endif
+
+PRODUCT_PACKAGES += \
     privapp-permissions-google-se
